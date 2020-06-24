@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Playfair Display', serif;
 }
@@ -14,8 +17,8 @@ body{
 .logo{ 
     position: relative;
     padding: 0;
-    width: 15em;
-    height: 11em;
+    width: 18em;
+    height: 12em;
 }
  #hero .content {
     background: rgba(0, 0, 0, 0.5);
@@ -29,11 +32,16 @@ body{
  #hero .content h1 h3 {
      font-size: 5em;
  }
+ h1, h3{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
  .img-yo{
     position: relative;
     width: 100%;    
     display: inline-block;
     margin-top: 50px;
+    box-shadow: 10px 10px 3px grey;
 
  }
  .presentacion{
@@ -44,3 +52,13 @@ body{
 .presentacion p:last-child {
     float: left;
 }
+.card-img-top:hover{
+    cursor: pointer;
+    box-shadow: 15px 15px 3px grey;
+    transform: translateY(-0.25em);
+}
+.footer a {
+    text-decoration: none;
+}
+
+    

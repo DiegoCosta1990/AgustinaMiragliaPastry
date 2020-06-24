@@ -9,22 +9,36 @@
     <title>Agustina Miraglia Pastry</title>
 </head>
 <body>
-    <!--NAVBAR-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        
-        <a class="navbar-brand mx-auto align-items-center" href="#">
-            <img class="logo" src="Agustina Miraglia-logo-white.png" alt="logo">
-        </a>        
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand mr-5" href="#top">Agustina Miraglia Pastry</a>
+      <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="my-nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link mr-5" href="#About-me">About me</a>
+          </li>
+          <li class="nav-item mr-5">
+            <a class="nav-link" href="#Some-Creations-Examples" tabindex="-1" aria-disabled="true">Some Creations Examples</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-me" tabindex="-1" aria-disabled="true">Contact me</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <!--NAVBAR-->
-
     <!--SECTION --> 
     <div id="hero">
         <div class="content d-flex align-items-center">
             <div class="container text-center">
-                <h1 style="color:white"><b>My name is Agustina Miraglia. Welcome!</b></h1>
-                <br><br>
-                <h3 style="color:white"><b>This is my official Pastry webpage!</b></h3>
+              <a class="navbar-brand mx-auto align-items-center" href="#">
+                <img class="logo" src="Agustina Miraglia-logo-white.png" alt="logo">
+              </a>
+              <br><br>
+              <h1 style="color:white"><b>My name is Agustina Miraglia. Welcome!</b></h1>
+               <br><br>
+               <h3 style="color:white"><b>This is my official Pastry webpage!</b></h3>
             </div>    
         </div>
     <!--SECTION -->
@@ -34,9 +48,9 @@
         </video>
     </div>
     <!--VIDEO BACKGROUND-->
-
+    <div class="p-4" id="About-me"></div>
     <!--SECTION ABOUT ME -->
-    <div class="container-fluid">
+    <div class="container-fluid mt-2">
         <div class="row">
             <div class="col-xl-6 col-md-6 col-sm-12 img-container">
                 <img class="img-yo" src="yo.jpg" alt="yo">
@@ -44,7 +58,7 @@
             <div class="col-xl-6 col-md-6 col-sm-12 presentacion p-2 mt-4">
                 <h1 class="text-center"><i><b><u>About me</u></b></i></h1>
                 <br>
-                <h4><i>Me and my background</i></h4>
+                <h4><i>Me and my background.</i></h4>
                 <br>
                 <p>Hello there! First of all, thank you so much to visit my page. (Hope you like it!).</p>
                 <br>
@@ -68,89 +82,71 @@
     <!--SECTION ABOUT ME-->
     <!--SECTION CARROUSEL-->
     
-    <div class="album py-5 bg-light">
-        <h1 class="text-center p-4"><u><i><b>Products</b></i></u></h1>
+    <div class="album py-5 bg-light" id="Some-Creations-Examples">
+        <h1 class="text-center p-4"><u><i><b>Some Creations examples</b></i></u></h1>
         <div class="container">
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 400px; width: 100%; display: block;" src="torta1.jpg" data-holder-rendered="true">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="torta2.jpg" data-holder-rendered="true" style="height: 400px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="torta3.jpg" data-holder-rendered="true" style="height: 400px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="torta4.jpg" data-holder-rendered="true" style="height: 400px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
               </div>
             </div>
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
                 <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="torta5.jpg" data-holder-rendered="true" style="height: 400px; width: 100%; display: block;">
-                <div class="card-body">
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                      <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
               </div>
-            </div>    
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="torta6.jpg" data-holder-rendered="true" style="height: 400px; width: 100%; display: block;">
+              </div>
+            </div>
           </div>
         </div>
     </div>
     <!--SECTION CARROUSEL-->
+    <!--FOOTER-->
+    <div class="container-fluid p-4" id="contact-me">
+      <div class="row">
+        <div class="col-xs-12 col-xl-3 m-3 border-right">
+          <h4 class="mb-4"><i><b><u>Agustina Miraglia Pastry</u></b></i></h4>
+          <p>Hope you like the webpage! </p>
+          <p>I invite you to contact me in my social networks or by e-mail.</p>
+          <p>See you soon!</p>
+        </div>
+        <div class="col-xs-12 col-xl-3 m-3 border-right">
+          <h4 class="mb-4"><i><b><u>Contact me</u></b></i></h4>
+          <p>E-mail: <a href="mailto:agustinamiraglia@hotmail.com"> Send me an e-mail.</a></p>
+          <p>Facebook: <a href="https://www.facebook.com/Whisk-Wishes-775145229524042/"> Visit my facebook page.</a></p>
+          <p>Instagram: <a href="https://www.instagram.com/agustinamiraglia/"> Visit my Instagram page.</a></p>
+        </div>
+        <div class="col-xs-12 col-xl-3 m-3">
+          <h4 class="mb-4"><i><b><u>Webpage</u></b></i></h4>
+          <p>Design and Coding by <a href="mailto:d.costa1990@outlook.com">Diego Alberto Costa</a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-xl-12 mr-5 text-right">
+          <p>&copy Copyright 2020 by <a href="#top">Agustina Miraglia Pastry</a></p>
+        </div>       
+      </div>
+    </div>
+    <!--FOOTER-->
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
